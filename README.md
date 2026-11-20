@@ -31,7 +31,8 @@ flutter run
 
 Every push to `main` runs the GitHub Actions workflow in
 `.github/workflows/build-apk.yml`. Open the workflow run, download the
-`ShopSphere-APK` artifact, and install `app-release.apk` on an Android device.
+`ShopSphere-APK` artifact, unzip it if needed, and install the APK matching
+your Android device. On a typical ARM64 phone, use `app-arm64-v8a-release.apk`.
 
 Validate with:
 
